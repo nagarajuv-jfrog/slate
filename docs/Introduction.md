@@ -1,6 +1,6 @@
 # Introduction to Slate!
 
-# Slate Test from Archbee!!! EDIT BY DRAGOS
+# Slate Test!!!&#x20;
 
 [Slate](http://slatejs.org) is a *completely* customizable framework for building rich text editors. Testing again.
 
@@ -86,3 +86,4 @@ If you're maintaining a translation, feel free to pull request it here!
 All contributions are super welcome! Check out the [Contributing instructions](general/contributing.md) for more info!
 
 Slate is [MIT-licensed](https://github.com/ianstormtaylor/slate/tree/f6bfe034d707693488c38da77537fd36cb8856cf/License.md).
+
