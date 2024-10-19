@@ -1,7 +1,5 @@
 # Introduction to Slate!
 
-# Slate Test!!!&#x20;
-
 [Slate](http://slatejs.org) is a *completely* customizable framework for building rich text editors. Testing again.
 
 Slate lets you build rich, intuitive editors like those in [Medium](https://medium.com/), [Dropbox Paper](https://www.dropbox.com/paper) or [Google Docs](https://www.google.com/docs/about/)—which are becoming table stakes for applications on the web—without your codebase getting mired in complexity.
@@ -86,4 +84,3 @@ If you're maintaining a translation, feel free to pull request it here!
 All contributions are super welcome! Check out the [Contributing instructions](general/contributing.md) for more info!
 
 Slate is [MIT-licensed](https://github.com/ianstormtaylor/slate/tree/f6bfe034d707693488c38da77537fd36cb8856cf/License.md).
-
