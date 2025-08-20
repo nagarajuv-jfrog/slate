@@ -1,4 +1,5 @@
 # Resources
+This is from GitHub
 
 A few resources that are helpful for building with Slate.
 
