@@ -6,13 +6,15 @@ Slate lets you build rich, intuitive editors like those in [Medium](https://medi
 
 It can do this because all of its logic is implemented with a series of plugins, so you aren't ever constrained by what *is* or *isn't* in "core". You can think of it like a pluggable implementation of `contenteditable` built on top of [React](https://facebook.github.io/react/). It was inspired by libraries like [Draft.js](https://facebook.github.io/draft-js/), [Prosemirror](http://prosemirror.net/) and [Quill](http://quilljs.com/).
 
-> 🤖 **Slate is currently in beta**. Its core API is usable now, but you might need to pull request fixes for advanced use cases. Some of its APIs are not "finalized" and will (breaking) change over time as we find better solutions.
+>
 
 ## Why?
 
 Why create Slate? Well... *(Beware: this section has a few of* [*my*](https://github.com/ianstormtaylor) *opinions!)*
 
-Before creating Slate, I tried a lot of the other rich text libraries out there—[**Draft.js**](https://facebook.github.io/draft-js/), [**Prosemirror**](http://prosemirror.net/), [**Quill**](http://quilljs.com/), etc. What I found was that while getting simple examples to work was easy enough, once you started trying to build something like [Medium](https://medium.com/), [Dropbox Paper](https://www.dropbox.com/paper) or [Google Docs](https://www.google.com/docs/about/), you ran into deeper issues...
+/
+
+Before creating Slate \{\{nagvar}, I tried a lot of the other rich text libraries out there—[**Draft.js**](https://facebook.github.io/draft-js/), [**Prosemirror**](http://prosemirror.net/), [**Quill**](http://quilljs.com/), etc. What I found was that while getting simple examples to work was easy enough, once you started trying to build something like [Medium](https://medium.com/), [Dropbox Paper](https://www.dropbox.com/paper) or [Google Docs](https://www.google.com/docs/about/), you ran into deeper issues...
 
 - **The editor's "schema" was hardcoded and hard to customize.** Things like bold and italic were supported out of the box, but what about comments, or embeds, or even more domain-specific needs?
 - **Transforming the documents programmatically was very convoluted.** Writing as a user may have worked, but making programmatic changes, which is critical for building advanced behaviors, was needlessly complex.
@@ -30,7 +32,7 @@ Which brings me to how Slate solves all of that...
 
 ## Principles
 
-Slate tries to solve the question of "[Why?](Introduction.md#why)" with a few principles:
+Slate tries to solve the question of "[Why?](./#why)" with a few principles:
 
 1. **First-class plugins.** The most important part of Slate is that plugins are first-class entities. That means you can *completely* customize the editing experience, to build complex editors like Medium's or Dropbox's, without having to fight against the library's assumptions.
 2. **Schema-less core.** Slate's core logic assumes very little about the schema of the data you'll be editing, which means that there are no assumptions baked into the library that'll trip you up when you need to go beyond the most basic use cases.
